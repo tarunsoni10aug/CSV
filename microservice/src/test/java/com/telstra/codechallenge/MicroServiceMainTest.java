@@ -29,5 +29,6 @@ public class MicroServiceMainTest {
             .toString(), String.class);
     assertEquals("{\"status\":\"UP\"}", response
         .getBody());
+    
   }
 }
